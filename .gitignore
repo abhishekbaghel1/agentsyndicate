@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+lead-agent/venv/
+__pycache__/
+lead-agent/__pycache__/
+frontend/.next/
+frontend/out/
+
+# Hardhat artifacts
+contracts/artifacts/
+contracts/cache/
+contracts/deployed-addresses.json
+
+# Environment files and logs
+.env
+.env.local
+.env.*.local
+*.log
+worker/*.log
+lead-agent/*.log
+
+# VS Code and OS files
+.vscode/
+.DS_Store
+Thumbs.db
